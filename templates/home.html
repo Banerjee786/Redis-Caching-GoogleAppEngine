@@ -1,0 +1,36 @@
+<!doctype html>
+<head>
+<header> <h2 style="color:blue;">Priyam Banerjee | University of Texas at Arlington </h2> </header>
+</head>
+<html>
+	<body>
+		<center>
+
+		Enter mag 1 : <input type="text" name="mag1">
+		Enter mag 2 : <input type="text" name="mag2">
+		Count of the query : <input type="text" name="countquery">
+        <br>
+		<form action="/hello_redis" method="POST" enctype="multipart/form-data">
+        <input type="submit" value="Reddis">
+        </form><br>
+        <form action="/nonredis" method="POST" enctype="multipart/form-data">
+        <input type="submit" value="NonReddis">
+		</form><br>
+        <form action="/barchart" method="POST" enctype="multipart/form-data">
+        <input type="submit" value="Show Barchart">
+        </form><br>
+
+        <form action="/piegraph" method="POST" enctype="multipart/form-data">
+        <input type="submit" value="Show Pie Graph">
+        </form><br>
+
+        <form action="/scattergraph" method="POST" enctype="multipart/form-data">
+        <input type="submit" value="Show Scatter Graph">
+        </form><br>
+
+        <form action="/imagedisplay" method="POST" enctype="multipart/form-data">
+        <input type="submit" value="Display Image">
+        </form><br>
+      </center>
+	</body>
+</html>
