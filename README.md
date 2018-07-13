@@ -4,7 +4,7 @@ This is to display the faster access of data items using Redis [Alternative to M
 a Redis Server to start the service before using Redis.
 
 Commands to install and start redis-server are as follows :
-sudo apt-get install redis-server
+sudo apt-get install redis-server ;
 sudo service redis-server start
 
 On clicking the button 'Redis', it navigates to the response.html page and displays the Average Response Time for a standard query looped
